@@ -1,0 +1,13 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+.app {
+    display: grid;
+    grid-template-rows: [header-s] 160px [header-e content-s] 650px [content-e]
+}

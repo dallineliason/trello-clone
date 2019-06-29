@@ -1,0 +1,28 @@
+.boards {
+    grid-row: content-s/content-e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__create {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+        width: 345px;
+        margin: 20px;
+        background-color: rgb(16, 240, 16);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        border-radius: 5.5px;
+
+        &:hover {
+            height: 151px;
+            width: 391px;
+            transition: .3s ease-in-out;
+            cursor: pointer;
+        }
+    }
+    &__create-title {
+
+    }
+}
