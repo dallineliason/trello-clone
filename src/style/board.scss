@@ -1,0 +1,59 @@
+.board {
+
+    &__title {
+        height: 66px;
+        width: 200px;
+        background-color: rgb(189, 241, 252);
+
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+
+    &__title-text {
+        color: white;
+        text-shadow: 0px 0px 3px #000;
+    }
+
+   &__add-list {
+    height: 122px;
+    width: 162px;
+    display: flex;
+    margin: 20px;
+    background-color: #0a2c74;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+    height: 100px;
+    padding: 10px 40px;
+    border-radius: 5px;
+   }
+
+   &__add-list-title {
+    color: white;
+    font-weight: 900;
+   }
+
+   &__list {
+    height: 116px;
+    width: 293px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    display: flex;
+
+   }
+
+   &__list-form {
+        margin: 25px;
+   }
+
+   &__list-form-input {
+        padding: 11px 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2.5px solid rgba(255, 255, 255, 0.8);
+        box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+        width: 200px;
+   }
+}
